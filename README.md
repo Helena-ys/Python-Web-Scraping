@@ -41,6 +41,8 @@ print("==================================")
 for product in productList:
     product.showDetail()
 ```
+![Display the result](https://github.com/Helena-ys/Python-Web-Scraping/blob/main/result_1.PNG?raw=true)
+
 #### Build a data frame from the list
 ```
 # Create a dictionary from each row of product list and append it to a dataframe
@@ -68,6 +70,6 @@ print(dfIn.head(2))
 print("\n*** The last two of products ***")
 print(dfIn.tail(2))
 ```
-
+![Display the data frame](https://github.com/Helena-ys/Python-Web-Scraping/blob/main/result_2.PNG?raw=true)
 
 ![Image of Plot](https://github.com/Helena-ys/Python-Web-Scraping/blob/main/plot_currency_change.png?raw=true)
