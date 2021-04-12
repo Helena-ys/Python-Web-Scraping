@@ -3,7 +3,7 @@ This application scrapes uniform rows of content and table content from websites
 
 ## Part A: Scrapes uniform rows of content from three pages of a site
 - URL: https://canada.michaels.com/
-- Framework: Selenium, Webdriver-manager, and ChromeDriver
+- Framework: BeautifulSoup, Pandas, Selenium, Webdriver-manager, and ChromeDriver
 
 #### Creates a class that has properties to store the cleansed data once you have extracted it. 
 ```
@@ -71,5 +71,9 @@ print("\n*** The last two of products ***")
 print(dfIn.tail(2))
 ```
 ![Display the data frame](https://github.com/Helena-ys/Python-Web-Scraping/blob/main/result_2.PNG?raw=true)
+
+## Part B: scrapes some content that you can summarize dynamically and present in a graph.
+- URL: https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/
+- Framework: BeautifulSoup, Pandas, Matplotlib
 
 ![Image of Plot](https://github.com/Helena-ys/Python-Web-Scraping/blob/main/plot_currency_change.png?raw=true)
